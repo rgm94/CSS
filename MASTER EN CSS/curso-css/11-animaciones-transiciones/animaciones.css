@@ -1,0 +1,47 @@
+header{
+
+    text-shadow: 1px 1px 3px black;
+    font-style: italic;
+}
+
+
+#caja{
+
+    width: 250px;
+    height: 250px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 3px black;
+    animation-name: desplazamiento;
+    animation-duration: 20s;/*establecemos la duración de la animación*/
+    animation-iteration-count: infinite;/*hacemos que la animación sea infinita*/
+    animation-timing-function: linear;/*ajusta la velocidad a la que se ejecuta*/
+    
+}
+
+@keyframes desplazamiento{/*usamos keyframes para las animaciones y el nombre que deseemos*/
+
+    0%{/*comienzo de la animación*/
+        margin-left: 0px;
+        transform: rotate(0deg);/*la animación gira o rota*/
+    }
+
+    50%{/*mitad de la animación*/
+        margin-left: 1640px;
+        transform: rotate(360deg);
+        border-radius: 999px;/*se convierte en una bola*/
+        background-color: lightsalmon;
+    }
+
+    100%{/*final de la animación*/
+        margin-left: 0px;
+        transform: rotate(0deg);
+        
+    }
+}

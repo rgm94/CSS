@@ -1,0 +1,117 @@
+*{
+    background-color: black;
+    color: greenyellow;
+    font-family: sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+
+
+body{
+
+    border:solid greenyellow;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+ul li{
+
+    display: block;
+    margin-top: 20px;
+    
+}
+ul li:first-child{/*Modificamos el primer elemento de la lista*/
+
+    color:red;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red;
+    font-style: italic;
+}
+
+ul li:nth-child(2){/*modifica el segundo elemento de la lista*/
+
+    color:yellow;
+    font-size: 20px;
+}
+
+ul li:nth-child(3){/*modifica el tercer elemento de la lista*/
+
+    color:white;
+    font-size: 20px;
+}
+
+
+ul li:last-child{/*modificamos el último elemento de la lista*/
+
+    color:lightblue;
+    font-size: 20px;
+
+}
+
+
+#no-visitado{/*enlace que no ha recibido visita*/
+
+    color:lightsalmon;
+    font-size: 20px;
+    
+    
+}
+#no-visitado:link{/*si no visitamos el enlace, su color es rojo*/
+
+    color:yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    
+
+}
+
+#enlace{/*enlace que recibe visita*/
+
+    color:lightsalmon;
+    font-size: 20px;
+    
+}
+
+#enlace:visited{/*si hemos visitado el enlace, el color se vuelve azul*/
+
+    color:lightblue;
+    
+}
+
+#enlace:hover{/*al pasar el mouse por encima se vuelve del color indicado*/
+
+    color:greenyellow;
+}
+
+#enlace:active{/*si mantenemos pulsado el enlace, éste tendrá las siguientes características*/
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+    font-size: 25px;
+}
+
+#texto{
+ 
+   
+    color: greenyellow;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    border:solid greenyellow;
+    border-radius: 15px;
+    height: 30px;
+    
+}
+
+#texto:focus{/*al hacer clic en el input, este adopta el estilo indicado*/
+    
+    border: 4px dashed lightblue;
+    
+
+}

@@ -1,0 +1,81 @@
+/*
+###### selectores #######
+*/
+
+/*SELECTOR UNIVERSAL*/
+
+*{/*el selector asterísco selecciona todos los elementos del html*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*SELECTOR ETIQUETAL*/
+
+h1{/*cambiamos el estilo de todas las etiquetas h1*/
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{/*cambiamos el estilo de todas las etiquetas a*/
+    font-size: 15px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a{/*editamos el estilo de la etiqueta a que se encuentra en el footer*/
+    color: red;
+}
+
+/*SELECTOR ID*/
+
+#descripcion{/*editamos el div con id descripción*/
+    border: 5px solid black;
+}
+
+#titulo{/*editamos el h1 llamado titulo*/
+    background: blue;
+    border: 2px dashed wheat;
+}
+
+/*SELECTOR CLASE*/
+.parrafo{/*podemos poner el mismo nombre de una frase a varios elementos,así, los editamos todos a la vez*/
+    font-style: italic;/*estilo de la letra*/
+    text-decoration: underline;/*subrayado*/
+    font-weight: bold;/*damos un poco de grosor al texto*/
+    font-size: 15px;/*tamaño de la fuente*/
+    background-color: blue;/*color de fonfo*/
+    color: white;/*color de la fuente*/
+}
+
+/*SELECTOR ATRIBUTO*/
+#usuario form{
+
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+ 
+#usuario form *{/*editamos todos los elementos que contiene el formulario*/
+
+    display: block;/*cada elemento ocupa una línea*/
+ }
+
+input[type="text"]{/*editamos los elementos de tipo input que tengan el atributo text o sean de tipo texto*/
+    margin-bottom: 15px;
+    padding: 10px;/*tamaño de los campos*/
+    width: 200px;/*ancho de los campos*/
+}
+
+input[type="submit"]{/*editamos los elementos input con atributo submit*/
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;/*indicamos que la letra se vea en mayúscula*/
+    cursor: pointer;
+
+}
+
+/*Prioridades*/

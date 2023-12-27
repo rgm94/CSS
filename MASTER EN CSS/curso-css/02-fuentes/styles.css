@@ -1,0 +1,24 @@
+@font-face {/*descargamos la fuente mansalva de google fonts y la importamos con @font-face*/
+    font-family: MansalvaFuenteCustom;/*Nombre que le indicamos a la fuente*/
+    src: url(fonts/Mansalva/Mansalva-Regular.ttf);
+}
+h1{
+    font-family: MansalvaFuenteCustom;/*tipo de fuente*/
+    font-style: italic;/*estilo de la fuente(cursiva..)*/
+    font-size: 55px;
+    color: mediumpurple;
+}
+
+h3{
+    font-family:'Comic Sans MS';
+    font-size: 25px;/*tamaño de la fuente*/
+    font-weight: lighter;
+    text-transform: uppercase;/*edita la fuente, minuscula, mayuscula..*/
+    color: olive;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;/*indicamos que la fuente sea en negrita*/
+}

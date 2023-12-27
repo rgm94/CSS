@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 0px 2px black;
+}
+
+#general{
+
+    border: 1px solid black;
+    height: 600px;
+    width: 800px;
+    margin: 0px auto;
+   
+    margin-top: 50px;
+}
+
+#cabecera{
+
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+#menu{
+
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+#menu ul li{
+
+    display: block;
+    float: inline-start;
+    padding-right: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    border-right: 1px solid black;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#contenido{
+
+    border-bottom: 1px solid black;
+    width: 75%;
+    height: 65%;
+    float: left;
+
+    
+}
+
+#contenido .absoluta{
+    position: absolute;/*con esta posicón movemos la caja como queramos
+    tiene preferencia sobre las demás*/
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+
+.absoluta p{
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#barra{
+
+    width: 25%;
+    float: left;
+    border-bottom: 1px solid black;
+    height: 65%;
+    
+}
